@@ -5,23 +5,16 @@ public class MyFirstProgram {
   public static void main(String[] args) {
     hello("world");
     hello("user");
-    double len = 5;
-    System.out.println("Area of a square with  " + len + " равна: " + area(len));
 
-    double a = 4;
-    double b = 6;
-    System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + " = " + area(a, b));
+    Square s = new Square(5);
+    System.out.println("Area of a square with the side " + s.l + " = " + s.area());
+
+    Rectangle r = new Rectangle(4, 6);
+    System.out.println("Area of a rectangle with the sides " + r.a + " and " + r.b + " = " + r.area());
   }
 
   public static void  hello(String somedody) {
     System.out.println("Hello, " + somedody + "!");
   }
 
-  public static double area(double l) {
-    return l * l;
-  }
-
-  public static double area(double a, double b) {
-    return a * b;
-  }
 }
