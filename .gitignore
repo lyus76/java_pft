@@ -1,5 +1,6 @@
+# Gradle
 .gradle
-/build/
+build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -14,3 +15,13 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 .idea/workspace.xml
 sandbox/build/classes/java/main/ru/stqa/pft/sandbox/MyFirstProgram.class
+
+
+# IntelliJ
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Misc
+*.log
