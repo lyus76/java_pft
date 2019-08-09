@@ -7,5 +7,6 @@ repositories {
 dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0-alpha-1'
     testCompile 'org.testng:testng:6.10'
+    testImplementation 'org.hamcrest:hamcrest:2.1'
 }
 
